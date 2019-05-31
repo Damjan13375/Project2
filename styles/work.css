@@ -1,0 +1,44 @@
+.Carrousel{
+    height: 100vh;
+}
+.maxH{
+    max-height: 100vh;
+}
+.images{
+height: 100vh;
+}
+#dNoneL, #dNoneR{
+    display: none;
+}
+.carFLex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width: 768px){
+    html{
+        height: 100vh;
+    }
+    *{
+        height: 100%;
+    }.carFLex{
+        height: 512px
+    }
+}
+@media screen and (max-width: 425px){
+html{
+    height: 100vh;
+}
+*{
+    height: 100%;
+}
+    /**.Carrousel {
+        height: 38vh;
+    } */ 
+    .carFLex{
+        height: 280px;
+    }
+    .carousel-inner>.item>a>img{
+        height: 100vh;;
+    }
+}

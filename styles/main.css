@@ -1,0 +1,520 @@
+html{
+    font-family: 'Lora', serif;
+
+}
+
+.brandCont img {
+    max-width: 160px;
+   position: absolute;
+   top: 2.5rem;
+}
+.upperCase{
+    text-transform: uppercase;
+    padding: 0 2rem;
+}
+
+.logoNotVis{
+    display: none;
+}
+#link1,#link2,#link3,#link4, #link6{
+    padding: 1.5rem 2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#link4{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    
+}
+#link4:hover{
+    background-color: rgb(175, 47, 5);
+}
+#nav1{
+background-color: transparent;
+padding: 20px 50px;
+background-image: none;
+border: none;
+box-shadow: none;
+
+}
+
+.temno {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 37, 38,0.65);
+}
+.slika {
+    height: 100vh;
+    background-image: url(../img/home2.jpg);
+    background-size: cover;
+    
+}
+.slika2{
+    height: 100vh;
+    background-image: url(../img/team.jpg);
+    background-size: cover;
+}
+.slika3 {
+    height: 100vh;
+    background-image: url(../img/hire.png);
+    background-size: cover;
+}
+
+.wh{
+    color: white;
+     word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+     margin-top: 26px;
+}
+ .naslov1 ,.naslov2 {
+    color: white;
+    margin-top: 160px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 1.9;
+    font-weight: bold;
+    font-size: 27px;
+}
+.naslov2 {
+    font-size: 20px;
+    line-height: 1.3;
+    word-spacing: 1px;
+}
+
+.round {
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 80px;
+}
+.round1 {
+    margin-top: 120px;
+}
+
+.arrow {
+    color: red;
+    padding: 8px;
+}
+.arrow:hover { 
+    color: black;
+}
+
+.rownaslovi h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-top: 35px;
+    margin-top: 0px;
+}
+.rownaslovi h4 a {
+    color: #242628;
+}
+ .rownaslovi h4 a:hover  {
+    color: #d82502;
+    text-decoration: none;
+ }
+ .ad:hover {
+    border-top: 4px solid #d82502;
+    color: #d82502;
+ }
+
+#rowhalfs1, #rowhalfs2, #rowhalfs3, #rowhalfs3 {
+    margin-top: 55px;
+}
+.rowhalfs1 h2 {
+    margin-top: 16px;
+}
+
+.pointer {
+    cursor: pointer;
+    margin-top: 40px;
+    color: #e54747;
+    border-bottom: 1px solid #bca0a0;
+    padding: 3px;
+}
+.glyphicon {
+    float: right;
+}
+
+.well {
+    background: white;
+    border: none;
+    font-size: 16px;
+    line-height: 2.2;
+}
+.image2-1 img, .image2-3 img {
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    
+}
+.image2-1 p , .oblique {
+    padding: 10px;
+    line-height:2.2;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: left;
+    font-style: oblique;
+    padding-bottom: 40px;
+    margin-top: 7px;
+}
+
+.shadow {
+    box-shadow: -11px 7px 13px -5px rgba(97,96,97,0.5);
+}
+.models1 img, .models2 img {
+    width: 210px;
+    height: 240px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.models2 img {
+    margin-top: 100px;
+}
+.listOne {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 18px;
+}
+.titlLeaders {
+    color: black;
+    margin-top: 40px;
+}
+.teamRow1 img {
+    width: 350px;
+    height:310px;
+    border-radius: 8px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.teamRow1 img:hover {
+    transform: scale(1.08);
+
+}
+.titlLeaders {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.teamRow1 h4 {
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+}
+.teamRow1 p {
+    color: #a30909;
+}
+
+.rowPeople2 , .rowPeople3 {
+    margin-top: 40px;
+}
+.liveBy h1 {
+    margin-top: 140px;
+}
+.teamDescription {
+    margin-top: 30px;
+}
+.imgButtons {
+    
+    height: 88vh;
+    background-image: url(../img/airplane.jpg);
+    background-size: cover;
+    margin-top: 80px;
+}
+.imgButtons  h1 {
+    margin-top: 200px;
+    color: white;
+    margin-bottom: 30px;
+}
+.hire {
+    background: linear-gradient(90deg, #ff2c40, #f15a3e);
+    color: white;
+    border-radius: 0;
+    
+    padding: 15px;
+}
+.hire:hover{
+    background: #ff2c40;
+    color: white;
+}
+.join {
+    background-color: white;
+     padding: 15px;
+     margin-right: 7px;
+     border-radius: 0;
+}
+.join:hover{
+    border:1px solid black;
+}
+#redBorder {
+    color: red;
+    border-top: 2px solid red;
+    font-weight: bold;
+    margin-top: -2px;
+}
+.hire:hover {
+    color: white;
+}
+.teamDescription {
+    margin-top: 40px;
+}
+
+.hireNaslov {
+    color: white;
+    margin-top: 180px;
+}
+.hireTXT p {
+    color: red;
+    font-weight: bold;
+}
+.HRH {
+    color: white;
+    margin-top: 100px
+}
+.redLine {
+    border: 1px solid red;
+    height: 29vh;
+     width: 2px;
+}
+.linija {
+    display: none;
+}
+.flx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.mapa img {
+    width: 50px;
+    height: 50px;
+}
+.laze {
+    
+    font-weight: bold;
+    color: black;
+}
+.footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}.footerOne p{
+     margin-top: 10px;
+}
+.marginR{
+    margin-right: 20px;
+}
+.facebook {
+    color: #3B5998;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.linkedin{
+    color: #0077B5;
+}
+
+/* Ovaa e za saatite */
+
+.hour,.min{
+   position: absolute;
+   left: 63px;
+}
+.clockWrap {
+    margin-top: 66px;
+}
+.clockWrap p {
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+.clocks {
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+}
+
+/* Ovaa e za sranata Services*/
+
+.services {
+    background-color: #fcfcfc;
+    height: 100vh;
+    position: relative;
+
+}
+.serviceTitle {
+    font-size: 190px;
+    letter-spacing: 90px;
+    color: #def4e0;
+    font-weight: bold;
+    position: absolute;
+    top: -90px;
+    margin-left: 280px;
+}
+.bestIn {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    margin-left: 180px; 
+    margin-top: 20px;
+
+}
+.btnBack {
+    float: right;
+    position: relative;
+    z-index: 2;
+    color: black;
+    margin-top: 20px;
+    margin-right: 120px;  
+}
+.btnServices{
+    padding: 10px;
+    font-weight: bold;
+    background-color: #7ebc8a;
+    border-radius: 60px; 
+    
+}
+
+.containerService {
+   box-shadow: -2px 4px 21px 0px rgba(171,171,171,1);
+    background-color: white;
+    float: right;
+    height: 86vh;
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.kaseta img {
+    width: 320px;
+    height: 19  0px;
+     transform: rotate(137deg);
+     margin-left: 130px;
+     z-index: 10;
+     position: relative;
+}
+.opis {
+    background-color: #50d8a2;
+    color: black;
+    height: 60vh;
+    width: 100%;     
+    position: relative;
+    z-index: 1; 
+    align-self: flex-end;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 26% 100%);
+
+}
+.opis ul, .types ul {
+    list-style: none;
+}
+
+.servicesList li {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 65px;
+    background-color: #50d8a2; 
+    margin-bottom: 14px;
+    padding: 5px; 
+   cursor: pointer; 
+   border-radius: 5%;
+   transition: background-color 1s ease-out;
+}
+.servicesList li:hover {
+    color: white;
+    cursor: pointer;
+   background-color: black;
+}
+.servicesDesc {
+    margin-top: 30px;
+}
+.servicesDesc li {
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 15px;
+    text-align: right;
+}
+
+
+/*ovaj del e za animaciite na tekstot*/
+
+.naslov2, .naslov1,.hireNaslov {
+     animation: fadein 1.5s;
+}
+
+.listOne, .wh,.HRH, .hireTXT p {
+    animation: fadein 3s;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    50% {
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }}
+
+
+   
+
+.upperCase {
+    text-transform: uppercase;
+    padding: 0 2rem;
+}
+
+.brandLogo {
+    width: 100%;
+}
+/*ne sakam da brisam nesto ama problematicno e ako izbrisam nesto otkako laze go napravail :/*/
+#link1,
+#link2,
+#link3,
+#link4,
+#link15 {
+    padding: 1.5rem 2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#link4 {
+    background: linear-gradient(90deg, #ff2c40, #f15a3e);
+    color: white;
+}
+#link4:hover{
+    background:  #ff2c40;
+}
+#nav1 {
+    background-color: transparent;
+    padding: 20px 50px;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+/* 
+.brandLogo {
+    width: 100%;
+    height: 40px;
+    width: 160px;
+} */
+
+
+
+.red112{
+    color: red;
+}
+.notActive{
+    color: black; background-color: #50d8a2;
+}
+.active{
+    color: white; background-color: black; 
+}

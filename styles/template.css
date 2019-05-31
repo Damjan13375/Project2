@@ -1,0 +1,171 @@
+
+
+
+#clocks{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+.hour,.min{
+  position: absolute;
+  left: 65px;
+}
+.logo20{
+  margin: 60px auto 20px;
+}
+* {
+  font-family: 'Lora', serif;
+}
+
+.brandCont {
+  max-width: 160px;
+  position: absolute;
+  top: 2.5rem;
+}
+
+.upperCase {
+  text-transform: uppercase;
+  padding: 0 2rem;
+}
+
+.brandLogo {
+  width: 100%;
+}
+
+#link1,
+#link2,
+#link3,
+#link4,
+#link15 {
+  padding: 1.5rem 2rem;
+  letter-spacing: 2px;
+  /* color: white; */
+}
+
+.mT-One {
+  margin-top: 28rem;
+}
+#link4 {
+  background-color: red;
+  color: white;
+}
+
+#nav1 {
+  background-color: transparent;
+  padding: 20px 50px;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+.brand3{
+  height: 40px;
+   width: 160px;
+}
+
+.hour,.min{
+  position: absolute;
+  left: 65px;
+}
+.upperCase {
+  text-transform: uppercase;
+  padding: 0 2rem;
+}
+
+.logoNotVis {
+  display: none;
+}
+.bgone{
+  margin-top: 5rem;
+  background-image: url("../img/arch.jpg");
+  height: 80vh;
+  background-size: cover;
+  
+}
+.pPP{
+  line-height: 3rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.mtTwo{
+  margin-top: 5rem;
+}
+.borders{
+  border-left: 1px solid black;
+}
+.bdR{
+  border-right: 1px solid black;
+}
+.footer{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}.footerOne p{
+   margin-top: 10px;
+}
+.marginR{
+  margin-right: 20px;
+}
+.facebook {
+  color: #3B5998;
+}
+.twitter{
+  color: #1DA1F2;
+}
+.linkedin{
+  color: #0077B5;
+}
+@media screen and (max-width: 1024px){
+  
+.hour,.min{
+  left: 4.9rem;
+}
+.mT-One{
+  margin-tOP: 15rem;
+}
+
+}
+@media screen and (max-width: 768px){
+  .img1{
+    height: 200px;
+    width: 350px;
+  }
+  .hour,.min{
+    left: 3rem;
+
+  }.bdR{
+    border: none;
+  border-left: 1px solid black;
+
+  }
+  .brandLogo{
+    width: 96px;
+    height: 25px;
+}
+  .brandCont{
+    top: 3rem;
+    left: 5rem;
+}}
+@media screen and (max-width:425px){
+  .CLOCKS{
+    display: none;
+  }
+  
+.ordered{
+  display: flex; 
+  flex-direction: column;
+}
+.footerTwo{
+  order: 1;
+  text-align: center;
+}
+.footerOne{
+  order: 2;
+  margin-top: 1rem;
+  text-align: center;
+}
+.img1{
+  width: 290px;
+}
+}

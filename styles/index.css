@@ -1,0 +1,793 @@
+* {
+    font-family: 'Lora', serif;
+}
+
+.brandCont {
+    max-width: 160px;
+    position: absolute;
+    top: 2.5rem;
+}
+
+.upperCase {
+    text-transform: uppercase;
+    padding: 0 2rem;
+}
+
+.brandLogo {
+    width: 100%;
+}
+
+#link1,
+#link2,
+#link3,
+#link4,
+#link15 {
+    padding: 1.5rem 2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#link4 {
+    background-color: red;
+    color: white;
+}
+
+#nav1 {
+    background-color: transparent;
+    padding: 20px 50px;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+.homePage {
+    color: rgb(202, 190, 190);
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+
+.mT-one {
+    margin-top: 28rem;
+    color: white;
+}
+
+.bgCarousel {
+    /* background-image: url("../img/coding.jpg"); */
+    background-size: cover;
+    height: 100vh;
+}
+
+.meetBtn {
+    border: 1px solid white;
+    padding: 2rem 4rem;
+    color: white;
+    margin-top: 30px;
+    font-size: 12px;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.meetBtn:hover{
+color: black;
+background-color: white;
+}
+
+.bgCarousel1 {
+    height: 45vh;
+    width: 40vw;
+    border-radius: 15px;
+    position: absolute;
+    top: 28rem;
+    left: 55rem;
+}
+.line{
+    border-top: 2.5px solid white;
+    margin-bottom: 4px;width: 15px;
+}
+.aa {
+    width: 35vw;
+    height: 40vh;
+}
+
+
+/* heading1 is the heading 2nd screen on the left  */
+
+.heading1 {
+    width: 75%;
+    margin-left: 10rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 50px;
+}
+
+.desc1 {
+    line-height: 32px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn2 {
+    color: #fff;
+    background: linear-gradient(90deg, #ff2c40, #f15a3e);
+    border: 0 solid transparent;
+    border-radius: 0;
+    transition: none;
+    margin-top: 3rem;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.logoNotVis {
+    display: none;
+}
+
+.btn2:hover {
+    background: #ff2c40;
+    color: white;
+}
+
+.mT-two {
+    margin-top: 12rem;
+}
+
+.redLink {
+    color: red;
+}
+
+.redLink:hover {
+    color: red;
+}
+
+#thirdSc{
+    margin-top: 7rem;
+}
+#thirdSc h4 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.bgimg2 {
+    
+    height: 125vh;
+    background: #282828 url("../img/laptop.jpg") no-repeat top 0 center;
+    background-size: cover;
+
+}
+#japan{
+    font-size: 40px;
+    line-height: 70px;
+}
+.textContainer {
+    background-color: white;
+    width: 60%;
+    position: absolute;
+    top: 17rem;
+    left: 20rem;
+    height: 47.5rem;
+}
+.smallLogo{
+    display: none;
+}.pHoverable{
+    display: none;
+}
+.hoverable:hover .smallLogo,
+ .hoverable:hover .pHoverable{
+    display: block;
+}
+.pWidth {
+    width: 50%;
+    margin-left: 15rem;
+    line-height: 32px;
+    margin-bottom: 20px;
+
+}
+#fifthSc{
+    margin-top: 15rem;
+}
+#tablet{
+    margin-left: -1.5rem;
+    height: 78.5vh;
+    width: 785px;
+    border: 2px solid #d2d2d2;
+    box-shadow: 3px 10px 10px #b8b7b7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+
+}
+.tabletButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 94px;
+    top: 24rem;
+
+}
+.tabletScreen {
+    padding-left: 14px;
+    margin-top: -1rem;
+    position: relative;
+    z-index: 50;
+
+
+}
+.arrowUp{
+    position: absolute;
+    right: 30px;
+    top: 20rem;
+    transition: color .2s ease-in-out 0s;
+
+}
+.arrowDown{
+    position: absolute;
+    right: 3rem;
+    top: 27rem;
+    transition: color .2s ease-in-out 0s;
+
+
+}
+.arrowDown:hover,.arrowUp:hover{
+    cursor: pointer;
+    color: #ff2c40;
+}
+.splittleIconingLinks{
+    width: 68px;
+    position: absolute;
+    right: 25px;
+    top: 23.5rem;
+    border-top: 1px solid #d2d2d2;
+}
+.arrowUp i,.arrowDown i {
+    color: black;
+    height: 18px;
+    transform: scaleX(0.75);
+}
+.bottom-detail{
+    position: absolute;
+    height: 15px;
+    background-color: white;
+    bottom: 0px;
+    z-index: 400;
+    width: 684px;
+
+}
+.tabletScreen img{
+    position: absolute;
+    margin-left: 0.5rem;
+    z-index: 4;
+}
+.tabletButton .button{
+    margin-right: 1.5rem;
+ width: 30px;
+ height: 30px;
+ border: 1.5px solid grey;
+ border-radius: 50%;
+}
+.top-detail{
+    position: absolute;
+    top: 10px;
+    z-index: 600;
+    background-color: white;
+    height: 15px;
+    width: 700px;
+}
+#sixthSc{
+    margin-top: 10rem;
+}
+#experience1{
+    font-size: 30px;
+    line-height: 50px;
+}
+.paddingBorder{
+    padding: 200px 85px;
+    border: 1px solid #e0e0e0;
+    position: relative;height: 60rem;
+    z-index: 10;
+}
+.paddingbgColor{ 
+    padding: 160px 40px 90px 90px;
+    position: relative;
+    margin-left: -30px;
+    margin-top: -30px;height: 60rem;
+    z-index: 20;
+    background-color: #f8f9fb;
+}
+#slider{
+    position: relative;
+}
+.lineSlide{
+    display: inline-block;
+    position: absolute;
+    height: 2px;
+    background-color: red;
+    margin-left: 100px;
+    width: 0;
+    top: 10px;
+     /* right: 0; */
+}
+.littleIcon{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.redColor{
+    color: red;
+}
+#seventhSc{
+    margin-top: 5rem;
+    background: #282828 url("../img/stairs.jpg") no-repeat top;
+    background-size: cover;
+    /* width: 100%; */
+    height: 600px;
+}
+
+.wrapThewrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+height: 100%;
+
+}
+.wrapper{
+height: 100%;
+display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#expansion{
+    font-size: 40px;
+    line-height: 70px;
+    color: white;
+}
+
+.tCapitalized{
+    text-transform: uppercase;
+    padding: 2rem 6rem;
+    margin: 1rem 1rem 1rem 0;
+    
+}
+.more{
+    display: none;
+}
+.tCapitalized:hover{
+    text-decoration: none;
+}
+#btnJoin{
+    color: black;
+    background-color: #fff;
+    
+}
+#btnJoin:hover{
+    border: 1px solid black;
+
+}
+
+#btnHire{
+    color: white;
+    background: linear-gradient(90deg,#ff2c40,#f15a3e);
+}
+#btnHire:hover{
+    background: #ff2c40;
+}
+.brand3{
+    height: 40px;
+     width: 160px;
+}
+#eighthSc{
+    margin-top: 5rem;
+}
+.clockWrapp{
+    position: relative;
+    
+}
+#clocks{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.hour,.min{
+    position: absolute;
+    left: 65px;
+  }
+.logo20{
+    margin: 60px auto 20px;
+  }
+.footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}.footerOne p{
+     margin-top: 10px;
+}
+.marginR{
+    margin-right: 20px;
+}
+.facebook {
+    color: #3B5998;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.linkedin{
+    color: #0077B5;
+}
+.dark{
+    height: 60rem;
+    line-height: 30px;
+    font-size: 1.4rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    width: 390px;
+    margin: -40px -75px;
+    padding: 40px 75px;
+}
+.marginR:hover{
+    text-decoration: none;
+}
+ .hoverable{
+  min-height: 600px;
+  padding: 40px 75px 10px;
+}
+.pHoverable{
+ line-height: 26px;
+}
+.rightB{
+
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+.borders{
+    border-top: 1px solid #d2d2d2;
+  
+}
+.secondHover{
+    border-right: 1px solid #d2d2d2;
+}
+.leftB{
+border-left: 1px solid #d2d2d2;
+border-top: 1px solid #d2d2d2;
+}
+.rightB .pHoverable, .rightB h4, .rightB .smallLogo{
+    position: relative;
+
+    z-index: 500;
+}
+
+@media screen and (max-width: 1024px){
+    #nav1{
+        width: 1024px;
+    }
+    .carrousel{
+        width: 660px;
+        height: 370px;
+    }
+    .hoverable,.dark{
+        width: 320px;
+    }
+   
+#tablet{
+    width: 667px;
+}
+.bgCarousel1{
+    left: 35rem;
+    top: 29.1rem;
+}
+.longImg{
+    width: 650px;
+}
+.top-detail,.bottom-detail{
+    width: 640px;
+}
+.hour,.min{
+    left: 4.9rem;
+}
+.lineSlide{
+    display: none;
+}
+}
+@media screen and (max-width: 768px){
+    #nav1{
+        width: 768px;
+        padding :2rem 5rem;
+    }
+    .brandCont{
+        top: 3rem;
+        left: 5rem;
+    }
+    .meetBtn{
+        display: none;
+    }
+    .mT-one{
+        margin-top: 10rem;
+    }
+    .carrousel{
+        width: 617px;
+        height: 37rem;
+        
+    }
+    .heading1{
+        margin-left: 1rem;
+    }
+    .bgCarousel1{
+        top: 29rem;
+        left: 5rem;
+    }
+    .brandLogo{
+        width: 96px;
+        height: 25px;
+    }
+    .hoverable,.dark{
+        width: 250px;
+    }
+    .textContainer{
+        width: 78%;
+    top: 15rem;
+    left: 8rem;
+    }
+    #japan{line-height: 30px;
+        font-size: 18px;
+    ;
+    
+    }
+    #tablet{
+        width: 700px;
+    }
+    .tabletScreen img{
+        left: 0.5rem;
+        margin: 0;
+    }
+    .top-detail,.bottom-detail{
+        width: 650px;
+    }
+    .paddingBorder{
+        height: 65rem;
+    }
+    .hour,.min{
+        left: 3rem;
+    }
+    .smallLogo{
+        display: block;
+    }
+    .more{
+        display: block;
+    }
+    .more a{
+        text-decoration: underline;
+        color: red;
+    }
+}
+@media screen and (max-width: 425px){
+    #nav1{
+        width: 425px;
+        padding: 15px 2px 5px 2px;
+    }
+    .mobileContainer{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .mT-one{
+        margin-top: 0;
+        padding-top: 12.5rem;
+    }
+    .carrousel{
+        width: 410px;
+        height: 256px;
+    }
+    .bgCarousel1{
+        left: 0;
+        top: 45rem;
+    }
+    
+    .mT-one h2,.listone,.heading1,.desc1,.desc2,.btn2{
+        text-align: center;
+    }
+    #tablet{
+        width:390px;
+        height: 370px;
+margin:0;
+    }
+    .top-detail,.bottom-detail{
+        width: 350px;
+    }
+    .tabletScreen img{
+        margin: 0;
+    }
+    .longImg{
+        width: 351px;
+        margin: 0;
+    }
+    .textContainer{
+        width: 90%;
+     height: 63rem;
+        left: 2rem;
+    }
+    .pWidth{
+        width:100%;
+        margin:0;
+    }
+    #japan{
+        font-size: 32px;
+        
+    }
+    .arrowDown,.arrowUp,.splittingLinks{
+        display: none;
+    }
+    .paddingBorder{
+        padding: 60px 0;
+        margin:0;
+        margin-left: -5rem;
+        padding-left: 5rem;
+        height: auto;
+        height: 47rem;
+
+        overflow-x: hidden;
+    }
+    .center2{
+        text-align: center;
+    }
+    .paddingbgColor{
+        margin: 0;
+        padding: 0;
+        /* margin-left: 5rem; */
+        padding-right: 5rem;
+        height: auto;
+        overflow-x: hidden;
+        height: 47rem;
+    }
+    .CLOCKS,#slider,.meetBtn{
+       display: none;
+    }
+    .buttonContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ .tabletButton{
+     right: 11px;
+     top: 19.5rem;
+ }   .tabletButton .button{
+     height: 17px;
+     width: 17px;
+ }
+ #fifthSc{
+     display: flex;
+     flex-direction: column;
+ }.relativeDiv{
+    text-align: center;
+    order: 1;
+}
+ .order2{
+     order: 2;
+ }
+ 
+.footer{
+    display: flex;
+    flex-direction: column;
+
+}.footerTwo{
+    order: 1;
+    text-align: center;
+}
+.footerOne{
+    order: 2;
+    margin-top: 1rem;
+    text-align: center;
+}
+/* #seventhSc{
+    width: 100%;
+} */
+.heading1{
+    margin-left: 6.5rem;
+}
+
+#logo1,#logo2{
+width: 94px;
+}
+.righgB,.leftB,.borders{
+    border:none;
+}
+.hoverable{
+    min-height: 0;
+    border-bottom: 1px solid #d2d2d2;
+    height: 20rem;
+    /* padding: 40px 40px 0; */
+}
+.hoverable .pHoverable{
+    display: none;
+}
+.dark{
+    height: 20rem;
+    padding: 1.2rem;
+}
+.hoverable:hover .pHoverable{
+    display: none;
+}
+.smallLogo{
+    display: block;
+}
+
+.more{
+    display: block;
+   
+}
+.more a{
+    text-decoration: underline;
+    color: red;
+}
+.brNone{
+    display: none;
+}
+.ordered{
+    display: flex; 
+    flex-direction: column;
+}
+}
+@media screen and (max-width: 375px){
+
+    #nav1{
+        width: 375px;
+    }
+    .bgCarousel1{
+        left: -3rem;
+    }
+    .carrousel{
+        width: 375px;
+    }
+    .heading1{
+        margin-left: 4.5rem;
+    }
+    #tablet{
+        width: 345px;
+    }
+    .longImg{
+        width: 320px;
+    }
+    .top-detail,.bottom-detail{
+        width: 320px;
+    }
+    .paddingBorder,.paddingbgColor{
+        width:320px;
+    }
+}
+@media screen and (max-width: 320px){
+    #nav1{
+        width:320px;
+    }
+    .carrousel{
+        width: 300px;
+        
+    }
+    .heading1{
+        margin:0;
+    }
+    .dark{
+        width: 300px;
+    }
+    #tablet{
+        width: 29rem;
+    }
+    .longImg{
+        width:27rem;
+    }
+    .top-detail,.bottom-detail{
+        width: 27rem;
+    }
+    .paddingBorder{
+        overflow: hidden;
+    }
+}
